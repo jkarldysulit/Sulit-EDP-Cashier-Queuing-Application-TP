@@ -21,7 +21,7 @@ namespace Cashier_Queuing_Application_TP
         {
             try
             {
-                lblView.Text = CashierClass.CashierQueue.Peek();
+                lblView.Text = CashierClass.CashierQueue.Peek();//will display the first value
             }
             catch (InvalidOperationException)
             {
